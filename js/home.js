@@ -16,7 +16,7 @@ fetch('https://api.themoviedb.org/3/movie/popular?api_key=ff683cd6939a6c42c628ad
             if(val2 == 1){
                 main.innerHTML += `
                 
-                    <h2>Assita os recomendados</h2>
+                    <h2>Assista os recomendados</h2>
                     <div class="card-movie">
                         <img src="https://image.tmdb.org/t/p/w500`+val1.poster_path+`" />
                     </div>
